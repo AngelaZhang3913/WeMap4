@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton healthButton =  findViewById(R.id.bathroomButton);
-        bathroomButton.setOnClickListener(new View.OnClickListener() {
+        ImageButton healthButton =  findViewById(R.id.healthButton);
+        healthButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 barbieMap.setImageResource(R.drawable.healthmap);
             }
